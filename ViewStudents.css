@@ -1,0 +1,53 @@
+
+h1{
+    text-align: center;
+    background-image: linear-gradient(to top, rgb(123, 223, 84),rgb(232, 83, 29));
+    -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+ 
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table:hover{
+    cursor: pointer;
+}
+thead{
+    background:greenyellow;
+    color:rgb(234, 19, 155);
+    font-size: large;
+}
+
+tr{
+    height: 25px;
+}
+td{
+    /* border: 1px solid black; */
+    text-align: left;
+}
+td,th{
+    border: 1px solid gray;
+}
+tr:nth-child(even){
+    background: #a5a2a2;
+    color: white;
+}
+#action{
+    display: flex;
+    justify-content: space-around;
+  height: 25px;
+}
+#action button{
+    background:blue;
+    color: aliceblue;
+}
+.gotoadd-student{
+    background: blue;
+    color: white;
+    margin: 5px;
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+}
